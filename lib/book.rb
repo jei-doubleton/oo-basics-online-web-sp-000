@@ -18,4 +18,8 @@ class Book
   def genre=(genre)
     @genre = genre
   end
+
+  def turn_page
+    @page_count + 1
+  end
 end
